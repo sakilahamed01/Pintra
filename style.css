@@ -1,0 +1,114 @@
+import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway:wght@400&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+header{
+  position: sticky;
+  top: 0;
+  background:white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.rightBox{
+    display: flex;
+    margin: 12px;
+  }
+
+.left img{
+  width: 80px;
+  height: 70px;
+}
+
+.container{ 
+  padding: 0 3vw;
+  height: 80px;
+}
+
+.containerHeader{ 
+  padding: 0 10vw; 
+  height: 160px;
+}
+
+nav{
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+nav ul li{
+  list-style: none;
+  padding: 0 10px;
+}
+.section1{
+  background: white;
+  height: 64vh;
+  font-family: 'Josefin Sans', sans-serif;;
+  margin-top: 6px;
+}
+.search{
+     width: 35vw;
+    padding: 8px 18px;
+    border: 0.4px solid #d9e9f7;
+    background: #f7f8fd;
+    border-radius: 5px;
+}
+.homeImg{
+    width: 90vw;
+    margin: 20px 10px;
+}
+/* .itemImg{
+    width: 20vw;
+    height: 100px;
+    margin: 11px 7px;
+} */
+footer{
+/*   padding: 63px; */
+      padding-top: 15px;
+    padding-bottom: 15px;
+  text-align: center;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+@media (max-width: 600px) { 
+.search {
+    width: 72vw; 
+}
+
+}
+
+
+@media (max-width: 1200px) {
+ .container{ 
+  padding: 0 4vw;
+  height: 145px;
+} 
+header{ 
+  background: white;
+/*   height: 145px; */
+ } 
+  nav{
+    flex-direction: column;
+    align-items: center;
+  }
+  .right{ 
+    flex-direction: column;
+  }
+
+  .rightBox{
+    display: flex;
+    margin: 12px;
+  }
+  nav ul li {
+    list-style: none;
+    padding: 0 4px;
+    font-size: 10px;
+  }
+  .containerHeader {
+    padding: 0 4vw;
+    height: 150px;
+ } 
+
+}
+
+
+  
